@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Форма переопределяет dispose для очистки списка компонентов.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'Примечание: следующая процедура является обязательной для конструктора форм Windows Forms
     'Для ее изменения используйте конструктор форм Windows Form.  
     'Не изменяйте ее в редакторе исходного кода.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -28,6 +28,7 @@ Partial Class Form1
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -88,11 +89,22 @@ Partial Class Form1
         Me.Button6.Text = "Продолжить игру"
         Me.Button6.UseVisualStyleBackColor = True
         '
+        'Button3
+        '
+        Me.Button3.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Button3.Location = New System.Drawing.Point(122, 160)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(140, 33)
+        Me.Button3.TabIndex = 7
+        Me.Button3.Text = "Генератор Вариантов"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(420, 311)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -113,4 +125,5 @@ Partial Class Form1
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents Button3 As Button
 End Class

@@ -38,3 +38,4 @@ C:\Users\Ян\source\repos\App\App\obj\Release\App.vbproj.CoreCompileInputs.cach
 C:\Users\Ян\source\repos\App\App\obj\Release\App.exe
 C:\Users\Ян\source\repos\App\App\obj\Release\App.xml
 C:\Users\Ян\source\repos\App\App\obj\Release\App.pdb
+C:\Users\Ян\source\repos\App\App\obj\Release\App.vbprojAssemblyReference.cache
